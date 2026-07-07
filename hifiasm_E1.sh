@@ -13,5 +13,5 @@
 
 module load conda/hifiasm/0.25.0
 
-hifiasm -o E1G0.asm -t 10 /quobyte/feldmanngrp/globus-write/asillers/PBmixRevio1857_1_D01_PLIM_30hours_16kbExpressCCSv3SPRQ2hrPE_350pM_FragariaxananassaEclipse-1_bc2025_CCSExpressIndex/m84053_260218_024559_s1.hifi_reads.bc2025.fastq.gz
+hifiasm -o E1G0.asm -t 10 --dual-scaf --telo-m TTTAGGG /quobyte/feldmanngrp/globus-write/asillers/PBmixRevio1857_1_D01_PLIM_30hours_16kbExpressCCSv3SPRQ2hrPE_350pM_FragariaxananassaEclipse-1_bc2025_CCSExpressIndex/m84053_260218_024559_s1.hifi_reads.bc2025.fastq.gz
 
