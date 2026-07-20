@@ -1,6 +1,6 @@
 # Genome-Assembly
 
-##Conda Environments
+## Conda Environments
 
 ```
 conda env create -n seqkit -f seqkit.yml
@@ -8,7 +8,7 @@ conda env create -n seqkit -f seqkit.yml
 conda env create -n ragtag -f ragtag.yml
 ```
 
-##Workflow
+## Workflow
 
 1. Assess metrics of input files: seqkit1.sh
 
