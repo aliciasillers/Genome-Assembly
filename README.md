@@ -18,4 +18,4 @@ conda env create -n ragtag -f ragtag.yml
 
 4. Assess metrics of output contigs: seqkit2.sh, quast.sh
 
-5. Scaffold: scaffold.sh
+5. Scaffold to reference genome: scaffold.sh
