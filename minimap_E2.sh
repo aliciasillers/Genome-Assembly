@@ -14,4 +14,4 @@
 module load conda
 conda activate hapbridge
 
-samtools fastq -T MM,ML /quobyte/feldmanngrp/globus-write/asillers/PBmixRevio1848_2_C01_PLGC_30hours_22kbExpressCCSv3SPRQ2hrPE_350pM_FragariaxananassaEclipse-2_bc2079_CCSExpressIndex/m84053_260107_105452_s4.hifi_reads.bc2079.bam | minimap2 -k17 -ax map-pb -y ../E2G0.asm.bp.p_ctg.fasta.gz - | samtools sort -@4 - > E2.bam
+samtools fastq -T MM,ML /quobyte/feldmanngrp/globus-write/asillers/PBmixRevio1848_2_C01_PLGC_30hours_22kbExpressCCSv3SPRQ2hrPE_350pM_FragariaxananassaEclipse-2_bc2079_CCSExpressIndex/m84053_260107_105452_s4.hifi_reads.bc2079.bam | minimap2 -k17 -ax map-pb -y Hifiasm_out/E2G0.asm.bp.p_ctg.fasta.gz - | samtools sort -@4 - > E2.bam

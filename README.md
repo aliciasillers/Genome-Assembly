@@ -8,11 +8,7 @@
 conda env create -n seqkit -f seqkit.yml
 
 conda env create -n ragtag -f ragtag.yml
-```
 
-### HapBridge
-
-```
 conda env create -n hapbridge -f hapbridge.yml
 ```
 
@@ -28,12 +24,7 @@ conda env create -n hapbridge -f hapbridge.yml
 
 4. Assess metrics of output contigs: seqkit2.sh, quast.sh
 
-### Methylation-based variant phasing with HapBridge
-
-```
-git clone https://github.com/Humonex/HapBridge.git
-cd HapBridge
-```
+### Methylation-based variant phasing
 
 5. Map reads to assembly: minimap_E1.sh, minimap_E2.sh, minimap_G1.sh
 
@@ -46,6 +37,10 @@ This step converts the original bam files with methylation tags to fastq, with t
 8. Phase variants: phase.sh
 
 9. Create haplotagged bam: haplotag.sh
+
+```
+git clone https://github.com/Humonex/HapBridge.git
+```
 
 10. Improve variant phasing: hapbridge.sh
 
