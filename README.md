@@ -2,8 +2,6 @@
 
 ## Conda Environments
 
-### Core Workflow
-
 ```
 conda env create -n seqkit -f seqkit.yml
 
