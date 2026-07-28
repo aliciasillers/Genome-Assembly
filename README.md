@@ -22,11 +22,13 @@ conda env create -n hapbridge -f hapbridge.yml
 
 4. Assess metrics of output contigs: seqkit2.sh, quast.sh
 
-### Methylation-based variant phasing
+### Methylation-based phasing improvement
 
-5. Map reads to assembly: minimap_E1.sh, minimap_E2.sh, minimap_G1.sh
+```
+git clone https://github.com/Humonex/HapBridge.git
+```
 
-This step converts the original bam files with methylation tags to fastq, with tags retained in headers, then maps to the assembly and sorts the output.
+5. Convert bam files and map reads to assembly: minimap_E1.sh, minimap_E2.sh, minimap_G1.sh
 
 6. Index: index.sh
 
@@ -36,14 +38,10 @@ This step converts the original bam files with methylation tags to fastq, with t
 
 9. Create haplotagged bam: haplotag.sh
 
-```
-git clone https://github.com/Humonex/HapBridge.git
-```
-
 10. Improve variant phasing: hapbridge.sh
 
-### Phasing and Scaffolding
-
 11. Use variants to phase assembly: phaseassembly.sh
+
+### Scaffolding
 
 12. Scaffold to reference genome: scaffold.sh
