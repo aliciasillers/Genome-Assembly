@@ -13,6 +13,6 @@
 
 module load conda/hifiasm/0.25.0
 
-hifiasm -o G1G0.asm -t 10 --dual-scaf --telo-m TTTAGGG /quobyte/feldmanngrp/globus-write/asillers/PBmixRevio1848_2_D01_PLGD_30hours_17kbExpressCCSv3SPRQ2hrPE_350pM_FragariachiloensisGoldenGate-1_bc2080_CCSExpressIndex/m84053_260107_125803_s1.hifi_reads.bc2080.fastq.gz
+hifiasm -o Hifiasm_out/G1G0.asm -t 10 --dual-scaf --telo-m TTTAGGG /quobyte/feldmanngrp/globus-write/asillers/PBmixRevio1848_2_D01_PLGD_30hours_17kbExpressCCSv3SPRQ2hrPE_350pM_FragariachiloensisGoldenGate-1_bc2080_CCSExpressIndex/m84053_260107_125803_s1.hifi_reads.bc2080.fastq.gz
 
 
