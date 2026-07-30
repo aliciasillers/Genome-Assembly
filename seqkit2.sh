@@ -14,8 +14,8 @@
 module load conda
 conda activate seqkit
 
-seqkit stats -a E1G0*ctg.fasta > SeqStats/E1_hifiasm.stats
+seqkit stats -a Hifiasm_out/E1G0*ctg.fasta > SeqStats/E1_hifiasm.stats
 
-seqkit stats -a E2G0*ctg.fasta > SeqStats/E2_hifiasm.stats
+seqkit stats -a Hifiasm_out/E2G0*ctg.fasta > SeqStats/E2_hifiasm.stats
 
-seqkit stats -a G1G0*ctg.fasta > SeqStats/G1_hifiasm.stats
+seqkit stats -a Hifiasm_out/G1G0*ctg.fasta > SeqStats/G1_hifiasm.stats

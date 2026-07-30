@@ -13,4 +13,4 @@
 
 module load quast
 
-quast.py *.bp.p_ctg.fasta --threads 6 -o QuastStats -r ../Genome/farr1.fa
+quast.py Hifiasm_out/*.bp.p_ctg.fasta --threads 6 -o QuastStats -r ../Genome/farr1.fa
