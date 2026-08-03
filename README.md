@@ -34,9 +34,9 @@ git clone https://github.com/Humonex/HapBridge.git
 
 7. Call variants: clair3.sh
 
-8. Phase variants: phase.sh
+8. Phase variants + index: phase.sh, index2.sh
 
-9. Create haplotagged bam: haplotag.sh
+9. Create haplotagged bam + index: haplotag.sh, index3.sh
 
 10. Improve variant phasing: hapbridge.sh
 
