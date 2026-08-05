@@ -34,14 +34,20 @@ git clone https://github.com/Humonex/HapBridge.git
 
 7. Call variants: clair3.sh
 
-8. Phase variants + index: phase.sh, index2.sh
+8. Phase variants + index: phase.sh
 
-9. Create haplotagged bam + index: haplotag.sh, index3.sh
+9. Index: index2.sh
 
-10. Improve variant phasing: hapbridge.sh
+10. Create haplotagged bam: haplotag.sh
 
-11. Use variants to phase assembly: phaseassembly.sh
+11. Remove secondary and supplementary alignments: primary.sh
+
+12. Index: index3.sh
+
+13. Improve variant phasing: hapbridge.sh
+
+14. Use variants to phase assembly: phaseassembly.sh
 
 ### Scaffolding
 
-12. Scaffold to reference genome: scaffold.sh
+15. Scaffold to reference genome: scaffold.sh
