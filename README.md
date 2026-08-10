@@ -46,8 +46,10 @@ git clone https://github.com/Humonex/HapBridge.git
 
 13. Improve variant phasing: hapbridge.sh
 
-14. Use variants to phase assembly: phaseassembly.sh
+14. Compress output files: compress.sh
+
+15. Use variants to phase assembly: phaseassembly.sh
 
 ### Scaffolding
 
-15. Scaffold to reference genome: scaffold.sh
+16. Scaffold to reference genome: scaffold.sh
