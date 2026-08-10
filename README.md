@@ -46,7 +46,7 @@ git clone https://github.com/Humonex/HapBridge.git
 
 13. Improve variant phasing: hapbridge.sh
 
-14. Compress output files: compress.sh
+14. Compress and index: compress.sh, index4.sh
 
 15. Use variants to phase assembly: phaseassembly.sh
 
