@@ -20,7 +20,7 @@ conda env create -n hapbridge -f hapbridge.yml
 
 3. Extract sequences: extract_seqs.sh
 
-4. Assess metrics of output contigs: seqkit2.sh, quast.sh
+4. Assess metrics of output contigs: seqkit2.sh
 
 ### Methylation-based phasing improvement
 
@@ -53,3 +53,5 @@ git clone https://github.com/Humonex/HapBridge.git
 ### Scaffolding
 
 16. Scaffold to reference genome: scaffold.sh
+
+17. Assess metrics: seqkit3.sh
